@@ -1,0 +1,8 @@
+<view class="logo">
+    <text class="dashboard-title">we-cropper</text>
+</view>
+<view class="lists">
+    <block wx:for="{{lists}}" wx:key="" wx:item="item">
+        <navigator class="list-item" url="{{item.url}}" hover-class="navigator-hover">{{item.name}}</navigator>
+    </block>
+</view>
